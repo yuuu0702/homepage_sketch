@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap);
 
 /* reset */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
@@ -50,6 +51,8 @@ a:active, a:focus,input:active, input:focus{outline:0;}
     width:1280px;
     height:568px;
     margin-left:-640px;
+	opacity: 1;
+	object-fit: cover;
 }
 
 #slogan{
@@ -65,7 +68,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 
 #slogan h1{
 	font-size: 40px;
-	font-family: 'Pacifico', cursive;
+	font-family: 'Noto Sans JP', sans-serif;
 	margin-bottom: 20px;
 	font-weight:normal;
 }
